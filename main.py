@@ -1,9 +1,11 @@
 from turtle import Screen
-from paddle import Paddle
-from ball import Ball
 import time
-from scoreboard import Field, Board
-from data import screen_data
+from classes import Field, Board, Paddle, Ball, screen_data
+# from classes.scoreboard import Field, Board
+# from classes.data import screen_data
+# from classes.paddle import Paddle
+# from classes.ball import Ball
+
 # Screen attribute globals.
 SCREEN_WIDTH = screen_data['SCREEN_WIDTH']
 SCREEN_HEIGHT = screen_data['SCREEN_HEIGHT']
